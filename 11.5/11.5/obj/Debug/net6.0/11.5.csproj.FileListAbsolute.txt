@@ -1,0 +1,15 @@
+D:\Study\Metanit-Csharp\11.5\11.5\bin\Debug\net6.0\11.5.exe
+D:\Study\Metanit-Csharp\11.5\11.5\bin\Debug\net6.0\11.5.deps.json
+D:\Study\Metanit-Csharp\11.5\11.5\bin\Debug\net6.0\11.5.runtimeconfig.json
+D:\Study\Metanit-Csharp\11.5\11.5\bin\Debug\net6.0\11.5.dll
+D:\Study\Metanit-Csharp\11.5\11.5\bin\Debug\net6.0\11.5.pdb
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.csproj.AssemblyReference.cache
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.AssemblyInfoInputs.cache
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.AssemblyInfo.cs
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.csproj.CoreCompileInputs.cache
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.dll
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\refint\11.5.dll
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.pdb
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\11.5.genruntimeconfig.cache
+D:\Study\Metanit-Csharp\11.5\11.5\obj\Debug\net6.0\ref\11.5.dll
