@@ -6,41 +6,35 @@ using System.Threading.Tasks;
 
 namespace _6._1
 {
-    internal class Program
+    public class Program
     {
+        delegate void Message();
+        delegate int Operation(int x, int y);
         static void Main(string[] args)
         {
-            Operation operation = SelectOperation(OperationType.Add);
-            Console.WriteLine(operation(10, 4));    // 14
+            Operation operation = new Operation(Add);
+            int result = operation(3, 4);
+            Console.WriteLine(result);
 
-            operation = SelectOperation(OperationType.Subtract);
-            Console.WriteLine(operation(10, 4));    // 6
+            operation = Multiply;
+            Console.WriteLine(operation(4,6));
 
-            operation = SelectOperation(OperationType.Multiply);
-            Console.WriteLine(operation(10, 4));    // 40
+            Message? longMes;
+            longMes = Hello;
+            longMes -= Hello;
 
-            Operation SelectOperation(OperationType opType)
-            {
-                switch (opType)
-                {
-                    case OperationType.Add:
-                    {
-                        return Add;
-                    }
-                    case OperationType.Subtract: return Subtract;
-                    default: return Multiply;
-                }
-            }
+            longMes();
 
+
+            longMes.Invoke();
             int Add(int x, int y) => x + y;
-            int Subtract(int x, int y) => x - y;
+
             int Multiply(int x, int y) => x * y;
+
+            void Hello() => Console.WriteLine("Hello");
+            void Valera() => Console.WriteLine("valera");
+
         }
+
     }
-    // объявление делегата
-    enum OperationType
-    {
-        Add, Subtract, Multiply
-    }
-    delegate int Operation(int x, int y);
 }
